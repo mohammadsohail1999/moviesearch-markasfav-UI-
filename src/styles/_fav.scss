@@ -1,0 +1,40 @@
+
+.container{
+ .fav_grid{
+    margin-top: 5rem;
+}   
+}
+
+
+.clear{
+    margin-top: 7rem;
+
+    display: flex;
+    justify-content: center;
+    
+    &_btn{
+
+        padding: 10px 20px;
+        outline: none;
+        background: rgb(7,5,51);
+        color: gold;
+        border: 1px solid gold;
+        font-size: 1.5rem;
+        transition: all .3s ease-in;
+        transform: skew(8deg);
+
+
+        &:hover{
+
+            color: rgb(7,5,51);
+            background: gold;
+            border: 3px solid rgb(7,5,51);
+            transform: skew(0deg);
+
+        }
+
+    }
+
+
+
+}

@@ -1,0 +1,43 @@
+
+form{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    .btn{
+    margin-left: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    background: gold;
+    border: none;
+    outline: none;
+
+    }
+}
+
+input{
+    border:none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: 12px;
+    border-radius: 3px;
+    width: 80%;
+
+    outline: none;
+
+
+
+
+
+}
+
+
+input[placeholder]{
+    color: gold;
+}
+
+
+
+

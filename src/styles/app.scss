@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Roboto", "Courier New", Courier, monospace;
+}
+
+@font-face {
+    font-family: 'Pacifico' ;
+    src: url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+}
+
+
+html {
+  background-image: linear-gradient(to right, #ffe259, #ffa757);
+
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+  .grid {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-gap: 2rem;
+    justify-items: center;
+
+
+    @media (max-width:758px){
+        grid-template-columns: 1fr 1fr;
+
+    }
+    @media (max-width:426px){
+        grid-template-columns: 1fr;
+    }
+  }
+}
+
+
+.message{
+  
+     display: flex;
+     justify-content:center;
+     color: #fff;
+     height: 50vh;
+     align-items: center;
+
+
+}
+
+
+@import "./nav";
+@import "./search";
+@import "./card";
+@import "./fav";
+@import "./modal";
